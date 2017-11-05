@@ -6,10 +6,11 @@ int main (){
 	int Lebar;
 	int Alas;
 	int Luas;
+	int hasil;
 	char inisial;
 	
 	cout << "Apa yang ingin anda hitung?? \n"
-		 << "Ketik 'P' untuk menghitung Persegi 'S' Untuk menghitung Segitiga \n";
+		 << "Ketik 'P' untuk menghitung luas Persegi 'S' Untuk menghitung luas Segitiga \n";
 	cout <<"Ketik Pilihan Anda : ";
 	cin >> inisial;	
 	
@@ -22,7 +23,9 @@ int main (){
 		cout <<"masukan Lebar Persegi:" ;
 		cin >> Lebar ;
 		
-		cout << Tinggi*Lebar;
+		hasil=Tinggi*Lebar;
+		cout << "Jadi Luas Persegi Adalah :" <<hasil;
+		
     }
     
     	else if  (inisial=='s' || inisial=='S')
@@ -32,7 +35,10 @@ int main (){
 		
 		cout <<"Masukan Tinggi Segitiga : ";
 		cin >> Tinggi;
-		cout << 0.5 * Alas * Tinggi;
+		
+	
+		hasil=0.5 * Alas * Tinggi;
+		cout << "Jadi Luas Segitiga Adalah :" <<hasil;
 	}
 	
 		else
