@@ -6,6 +6,11 @@ int main (){
 	int Lebar;
 	int Alas;
 	int Luas;
-	char inisial;	
+	char inisial;
+	
+	cout << "Apa yang ingin anda hitung?? \n"
+		 << "Ketik 'P' untuk menghitung Persegi 'S' Untuk menghitung Segitiga \n";
+	cout <<"Ketik Pilihan Anda : ";
+	cin >> inisial;	
 	
 }
