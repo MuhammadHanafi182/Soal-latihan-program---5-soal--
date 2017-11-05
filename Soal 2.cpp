@@ -34,4 +34,8 @@ int main (){
 		cin >> Tinggi;
 		cout << 0.5 * Alas * Tinggi;
 	}
+	
+		else
+		cout <<"Permintaan yang anda masukan salah !";
 }
+
