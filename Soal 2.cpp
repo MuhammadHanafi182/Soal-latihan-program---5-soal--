@@ -13,4 +13,15 @@ int main (){
 	cout <<"Ketik Pilihan Anda : ";
 	cin >> inisial;	
 	
+	
+	if (inisial=='p' || inisial=='P')
+	{ 
+		cout <<"masukan Tinggi Persegi: ";  
+		cin >> Tinggi ;
+		
+		cout <<"masukan Lebar Persegi:" ;
+		cin >> Lebar ;
+		
+		cout << Tinggi*Lebar;
+    }
 }
