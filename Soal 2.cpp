@@ -24,4 +24,14 @@ int main (){
 		
 		cout << Tinggi*Lebar;
     }
+    
+    	else if  (inisial=='s' || inisial=='S')
+	{	 
+		cout<<"Masukan Alas Segitiga : ";	
+		cin >> Alas;
+		
+		cout <<"Masukan Tinggi Segitiga : ";
+		cin >> Tinggi;
+		cout << 0.5 * Alas * Tinggi;
+	}
 }
