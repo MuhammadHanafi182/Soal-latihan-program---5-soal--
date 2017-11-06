@@ -10,4 +10,13 @@ int main(){
 	cin>>bil;
 	cout<<" \n ";
 	
+		if (bil < 0)
+	{
+		cout<<"Biangan yang anda input adalah bilangan negatif \n";
+	}
+	
+	else if (bil>0)
+	{
+		cout<<"Bilangan yang anda input adalah bilangan positif \n";
+	}
 }
