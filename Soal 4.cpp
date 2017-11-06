@@ -19,4 +19,7 @@ int main(){
 	{
 		cout<<"Bilangan yang anda input adalah bilangan positif \n";
 	}
+		else
+	
+		cout<<"Bilangan yang anda input adalah bilangan nol \n";
 }
