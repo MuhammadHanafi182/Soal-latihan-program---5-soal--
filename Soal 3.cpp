@@ -10,5 +10,14 @@ int main(){
 	cin>>jaker;
 	cout<<"Gaji Perjam Karyawan   : "; 
 	cin>>gaper;
+	
+	if (jaker>40){
+	cout<<" \n";
+	jamlembur=jaker-40;
+	bonlem=jamlembur*1.5;
+	totaljamlem=40+bonlem;
+	gatot=totaljamlem*gaper;
+	gaber=gatot-(0.15*gatot);
 
+}
 }
